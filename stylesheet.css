@@ -1,0 +1,147 @@
+
+body, html{
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(#8D6CD9
+, #AA5E88);
+  background-repeat:no-repeat;
+  background-size: cover; 
+  font-family:helvetica;
+}
+.pageContain{ /*Contains all of the html*/
+  
+}
+
+h1,h4, h5 { /*Headings*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:helvetica;
+}
+
+ul { /*lists holding user content*/
+  list-style-type: none;
+  padding: 0;
+}
+
+h6 { /*heading displays users from twitch*/
+  display: inline-block;
+  text-align: center;
+  width: 10em;
+}
+
+a { /*link with user addresses*/
+  text-decoration: none;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+img { /*user profile image*/
+  width: 3em;
+  border-radius: 2em;
+  margin: 0.5em;
+}
+#userCnt { /*container for user content*/
+  display: inline-block;
+  padding: 0.5em;
+}
+
+#container { /*container for user and list*/
+  background-color: #4548C8;
+  display: inline-block;
+  justify-content: center;
+  height:400px;
+  
+  overflow:scroll;
+  
+}
+
+.cntContain { /*user and user info container*/
+  background-color: #319eb2;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  transition: all .1s ease-in-out;
+  
+}
+
+.cntContain:hover {  /*color change for user on hover*/
+  background-color: #45c7d7;
+  box-shadow: 2px 2px 9px #afaeae;
+  transform: scale(1.04); 
+}
+
+.icon { /*icon display for online/offline*/
+  display: flex;
+}
+
+.fuck { /*icon container*/
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-bottom: 0.4em;
+}
+
+#onlineIcon{ /*online icon*/
+  color: rgb(44, 224, 24);
+}
+
+.status { /*what users are playing*/
+  width: 250px;
+  height: 25px;
+  background-color: #5D88B8;
+  margin: 0 auto;
+  overflow: hidden;
+  padding:2px;
+}
+
+#fadeIn{ /*used to access entire content for jquery fade in*/
+  display:flex;
+  justify-content:center;
+  content-align:center;
+  padding:10px;
+  
+}
+
+#head{ /*title*/
+  display:none;
+}
+
+#offline{ /*offline list*/
+  display:none;
+}
+
+#online{ /*online list*/
+  display:none;
+}
+
+#buttonContainer{ /*button container*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+  
+}
+
+.selectBtn{ /*all buttons*/
+  margin:5px;
+  background-color:rgba(229, 229, 229,0.05);
+} 
+
+.selectBtn:hover{/*button hover*/
+  background-color:rgb(69, 72, 200);
+}
+
+span{
+  display:inline-block;
+}
+
+
+.footer{
+  text-align:center;
+  display:flex;
+  justify-content:center;
+}

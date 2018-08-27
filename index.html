@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TWITCH VIEWER</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="pageContain">
+        <div id='head'>
+            <h1>TWITCH.TV VIEWER</h1>
+            <h4>See who's currently online!</h4>
+        </div>
+        <div id='buttonContainer'>
+            <div id='button'>
+                <button id='allButton' class='selectBtn btn'>All Users</button>
+                <button id='onButton' class='selectBtn btn'>Online</button>
+                <button id='offButton' class='selectBtn btn'>Offline</button>
+            </div>
+        </div>
+        <div id="span">
+            <div id='fadeIn'>
+                <div id='container'>
+                    <div id='userCnt'>
+                        <ul id="all">
+                            <h5>ALL USERS</h5>
+                        </ul>
+                        <ul id='offline'>
+                            <h5>OFFLINE</h5>
+                        </ul>
+                        <ul id='online'>
+                            <h5>ONLINE</h5>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span></span>
+        <span></span>
+        <div class='footer'>
+  <h5 class='footer'>By Kevin</h5>
+</div>
+    </div>
+</body>
+
+</html>
